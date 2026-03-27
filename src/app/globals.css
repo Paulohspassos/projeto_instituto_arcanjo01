@@ -1,8 +1,12 @@
+@import "tailwindcss";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
+  --background: #fafafa;
+  --foreground: #000000;
   --instituto-white: #FFFFFF;
   --instituto-black: #000000;
   --instituto-red: #AA0000;
@@ -12,4 +16,7 @@
 body {
   background-color: var(--instituto-white);
   color: var(--instituto-black);
+  background: var(--background);
+  color: var(--foreground);
+  font-family: sans-serif;
 }
