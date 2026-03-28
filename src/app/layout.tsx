@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description: "Transformando vidas através do esporte e da educação em Sobral.",
   themeColor: "#AA0000", // Isso deixa a barra do navegador vermelha no celular!
   icons: {
-    icon: "../public/favicon.ico", // Isso aponta diretamente para o arquivo que você salvou
+    icon: "/icon.png", // Isso aponta diretamente para o arquivo que você salvou
   },
 };
 
