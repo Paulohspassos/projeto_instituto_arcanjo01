@@ -9,7 +9,7 @@ export default function Navbar() {
         {/* Lado Esquerdo: Logo e Nome */}
         <Link href="/" className="flex items-center gap-3">
           <Image 
-            src="/logo-instituto.png" 
+            src="../public/logo-instituto.png" 
             alt="Logo" 
             width={50} 
             height={50} 
